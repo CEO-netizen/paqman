@@ -1255,6 +1255,7 @@ public:
   void readSegmentEnd(char* sha1string = 0);
   int stat(int x) {return dec.stat(x);}
   int buffered() {return dec.buffered();}
+  int get() {return dec.get();}
 private:
   ZPAQL z;
   Decoder dec;
