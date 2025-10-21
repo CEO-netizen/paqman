@@ -106,4 +106,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Version
 
-Current version: 1.0
+  Current version: 1.0.1

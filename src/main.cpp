@@ -35,7 +35,7 @@
  * |_|              |_|
  *                  \__/
  *
- * Maintainer: Gage
+ * Maintainer: zero 
  * Version: 1.0.1
  * Date: 2025-10-17 20:01
  */
@@ -288,7 +288,7 @@ void listArchiveContents(const std::string& input) {
 // Parses command-line arguments and dispatches to compression or decompression.
 int main(int argc, char** argv) {
     if (argc < 2 || std::string(argv[1]) == "--help") {
-        std::cout << "-(\33[31mPAQMan\33[0m)-By-(\33[31mGage\33[0m)-\n\n";
+        std::cout << "-(\33[31mPAQMan\33[0m)-By-(\33[31mzero\33[0m)-\n\n";
         std::cout << "Usage:\n";
         std::cout << "  \33[31mpaqman c <input_file_or_dir> <output_file> [method]\33[0m  # Compress file or directory (method: 0-5, default 5)\n";
         std::cout << "  \33[31mpaqman d <input_file> <output_dir>\33[0m                  # Decompress to directory\n";
