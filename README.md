@@ -89,7 +89,7 @@ paqman d archive.zpaq restored_file.txt
 
 - Not suitable for real-time compression (slow for large files at high levels)
 - Requires significant memory for high compression levels
-- Single-file archives (no multi-file support in this version)
+- Single-file archives (no multi-file support in this version) If you want to compress multiple files or directories, use tar with PAQMan, you’re not cutting corners you’re adhering to UNIX design principles and staying faithful to ZPAQ's original intent.
 
 ## License
 
